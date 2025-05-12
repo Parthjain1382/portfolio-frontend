@@ -50,12 +50,12 @@ export class RecruiterHomeComponent {
     {
       imageUrl: 'assets/images/avatar-1.jpg',
       title: 'The Seat',
-      tag: 'Recently Added'
+      tag: 'Comming Soon'
     },
     {
       imageUrl: 'assets/images/avatar-1.jpg',
       title: 'Britain and the Blitz',
-      tag: 'Recently Added'
+      tag: 'Comming Soon'
     },
   ]
 
