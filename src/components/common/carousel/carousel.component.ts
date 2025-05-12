@@ -4,6 +4,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { ResumeComponentComponent } from '../resume-component/resume-component.component';
 import { Router } from '@angular/router';
 import { EducationComponent } from '../education/education.component';
+import { HobiesComponent } from '../hobies/hobies.component';
+import { ConnectMeComponent } from '../connect-me/connect-me.component';
 
 interface CarouselItem {
   imageUrl: string;
@@ -91,14 +93,22 @@ export class CarouselComponent {
             });
       break;
       case 'Hobbies':
-        // Handle Hobbies click
+          this.dialog.open(HobiesComponent, {
+              width: isMobile ? '90vw' : '60%',
+              height: isMobile ? '95vh' : '100%',
+              panelClass: 'centered-dialog',
+            });
         break;
       case 'Certificate':
         // Handle Certificate click
         break;
       case 'Connect Me':
-        // Handle Connect Me click
-        break;
+            this.dialog.open(ConnectMeComponent, {
+              width: isMobile ? '90vw' : '60%',
+              height: isMobile ? '95vh' : '100%',
+              panelClass: 'centered-dialog',
+            });
+      break;
       default:
         // Handle default case
     }

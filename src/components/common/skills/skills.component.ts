@@ -81,6 +81,7 @@ skillCategories: SkillCategory[] = [
       { name: 'Jupyter Notebook', icon: 'fa-brands fa-python fa-4x', description: 'Python IDE' },
       { name: 'Figma', icon: 'fa-brands fa-figma fa-4x', description: 'Design Tool' },
       { name: 'Jira', icon: 'fa-brands fa-jira fa-4x', description: 'Agile Project Management' },
+      {name: 'Slack', icon: 'fa-brands fa-slack fa-4x', description: 'Team Communication Tool'},
       { name: 'Jasmine', icon: 'fa-solid fa-vial fa-4x', description: 'JavaScript Testing Framework' }
     ]
   },
