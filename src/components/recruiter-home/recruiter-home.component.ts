@@ -37,15 +37,15 @@ export class RecruiterHomeComponent {
       title: 'Hobbies',
       tag: 'Recently Added'
     },
-     {
-      imageUrl: 'assets/images/top-trending/certificate.png',
-      title: 'Certificate',
-      tag: 'Recently Added'
-    },
     {
       imageUrl: 'assets/images/top-trending/connectMe.png',
       title: 'Connect Me',
       tag: 'Recently Added'
+    },
+    {
+      imageUrl: 'assets/images/top-trending/certificate.png',
+      title: 'Certificate',
+      tag: 'Coming Soon'
     },
     {
       imageUrl: 'assets/images/avatar-1.jpg',
