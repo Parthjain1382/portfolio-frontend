@@ -17,8 +17,8 @@ export class RoleSelectionComponent {
 
   roles: UserDetail[] = [
     { name: 'Recruiter', image: '../../assets/images/avatar-1.jpg'},
-    {name: 'Developer', image: '../../assets/images/avatar-2.jpg'},
-    {name: 'Adventure', image: '../../assets/images/avatar-3.jpg'},
+    // {name: 'Developer', image: '../../assets/images/avatar-2.jpg'},
+    // {name: 'Adventure', image: '../../assets/images/avatar-3.jpg'},
   ]
 
   selectRole(rolesObj: UserDetail) {
